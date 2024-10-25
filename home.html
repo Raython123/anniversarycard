@@ -1,9 +1,55 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title> Joyeux Anniversaire !</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anniversary Card</title>
+  <style>
+    /* Set up the gradient background */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, violet, blue);
+      font-family: 'Cursive', sans-serif;
+    }
 
+    /* Card styling */
+    .card {
+      width: 80%;
+      max-width: 500px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Fancy text styling */
+    .flourish {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      line-height: 1.2;
+    }
+
+    /* Flourish styling */
+    .flourish:before,
+    .flourish:after {
+      content: "✦";
+      font-size: 0.8em;
+      color: #f0e;
+      margin: 0 8px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
 <body>
-    <p> Lorem Ipsum ejsdffj</p>
+  <div class="card">
+    <div class="flourish">Happy Birthday Bitchoun</div>
+  </div>
 </body>
+</html>
